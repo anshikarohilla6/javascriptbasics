@@ -178,3 +178,42 @@ switch (color) {
     default:
         console.log("invalid color")
 }
+
+let a = 6;
+a++;
+console.log(a);
+
+let i= 7;
+for (i= 1 ; i <= 7 ; i++) {
+    console.log(i)
+}
+
+let num= 10;
+num++;
+num--;
+num++;
+num--;
+console.log(num);
+
+let x=9;
+x += 3;
+x *=4;
+x /=3;
+x -=2;
+console.log(x);
+
+let balance=4500;
+balance += 300;
+balance -= 700;
+console.log(balance);
+
+let age = 20;
+let result = age >= 18? "adult" : "minor";
+console.log(result);
+
+let marks = 33;
+let status=marks >=33? "pass": "fail";
+console.log(status);
+
+let num= 9
+let 
