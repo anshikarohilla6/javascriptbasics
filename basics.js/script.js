@@ -215,5 +215,32 @@ let marks = 33;
 let status=marks >=33? "pass": "fail";
 console.log(status);
 
-let num= 9
-let 
+for (var i=0;i<3;i++){}
+console.log(i);
+
+var x = 10;
+function test(){
+    var x = 20;
+    console.log(x);
+}
+test();
+console.log(x);
+
+var a = 20;
+if(true){
+    var a= 15;
+}
+console.log(a);  
+
+(function(){
+    var x = 100;
+})();
+console.log(typeof x);
+
+let pattern = /anshika/;
+console.log(pattern.test("hello anshika"));
+
+let x = 5;
+x += (x *= 2);
+console.log(x);
+
