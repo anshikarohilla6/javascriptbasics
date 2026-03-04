@@ -252,3 +252,22 @@ for (i = 0; arr.length;i++){
 
 let matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
 console.log(matrix[1][2]);
+
+
+// document.addEventListener("mouseup", function(event) {   (insta se dekh kar game bnane ki koshish)
+//     if ((event.button = 0)) {
+//         InputDeviceInfo.mouse.left = false;
+//     }
+//     if ((event.button=1)) {
+//         InputDeviceInfo.mouse.middle = false;
+//     }
+//     if ((event.button = 2)) {
+//         InputDeviceInfo.mouse.right = false;
+//     }
+// });
+let arr = [1,2,3,4,5,6,7]
+for(i = 0; i<arr.length;i++){
+    console.log(arr[i]);
+}
+
+

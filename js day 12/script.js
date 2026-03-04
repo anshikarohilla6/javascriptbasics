@@ -8,3 +8,7 @@ const nameinput = document.getElementById("myinput");
 const courseinput=document.getElementById("course");
 const btn=document.getElementById("btn");
 const output=document.getElementById("output");
+
+courseinput.addEventListener("change",()=>{
+    console.log(courseinput.value);
+})
