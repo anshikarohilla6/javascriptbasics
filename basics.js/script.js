@@ -270,4 +270,21 @@ for(i = 0; i<arr.length;i++){
     console.log(arr[i]);
 }
 
-
+let arr = [1,2,3,4,5,6,7,8]
+for(i=0;i<arr.length;i++){
+    if(arr[i]%2===0)
+        console.log(arr[i]);
+}
+let arr = [1,2,3,4,5,6]
+for(i=0;i<arr.length;i++){
+    arr[i]=arr[i]+3;
+    console.log(arr[i]);
+}
+let arr = [4,3,6,1,8,2,9]
+let max =arr[0];
+for(i=0;i<arr.length;i++){
+    if (arr[i]>max){
+        max=arr[i];
+    }
+}
+console.log(max);
