@@ -11,4 +11,4 @@ function pro() {
 }
 pro()
 .then((res)=> console.log (res))
-.catch(()=> console.log("access denied"))
+.catch(()=> console.log("access denied"))  
